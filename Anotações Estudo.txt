@@ -1,0 +1,21 @@
+/* Estilização */
+	// Flex: 1 faz com que os componentes se adaptem com o maior espaço possível na tela sem tomar espaço do outro (referencia == tagPai);
+	// Flex: 2 faz com que o componente tome o dobro do tamanho se comparado ao componente do mesmo escopo com flex;
+	// TextInput == input:text(HTML);
+	/*FlexBox*/
+		// flexDirection: Serve para indicar o alinhamento do conteudo de uma view - aplicada na tag pai (view) - semelhante ao display:flex - parâmetros: 'row' e 'column';	
+		// justifyContent: Serve para alinhar os componentes na horizontal - aplicada na tag pai (view) - semelhante ao justify-content - parâmetros: (os mesmos do css);
+		// alignItems: Serve para alinhar os componentes na vertical - aplicada na tag pai (view) - semelhante ao align-items - parâmetros: (os mesmos do css);
+		- OBS se dependendo do flexDirection as funções do justifyContent e alignItems são invertidas;
+	/*Estilização Borda*/
+		// borderWidth: "Tamanho da borda do input";
+		// borderColor: "Cor da borda do input";
+
+/*TextInput*/
+	/*Tratamento de dados*/
+		/*DOM*/
+			// onChangeText = onChange(ReactJS) - apenas para TextInput
+/*Alert*/
+	// alert('<string>') - Mesmo jeito que o JS;
+/*Image*/
+	// Source (Imagens Locais) - Sintaxe: <Image Source={require('<Caminho da Imagem>')}/> 
