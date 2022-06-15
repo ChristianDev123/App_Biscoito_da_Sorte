@@ -20,7 +20,7 @@ Siga os seguintes passos no CMD do Windows ou no Bash do Linux:
     yarn install
 ```
 ```cmd
-    yarn start
+    npx react-native run-android
 ```
 
 > Certifique-se de que tem instalado e configurado o gerenciador de pacotes Yarn, o react-native-cli e o android Studio.
